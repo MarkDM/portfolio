@@ -1,4 +1,3 @@
-import React from 'react'
 import NextSectionButton from '../NextSectionButton'
 
 function Home({ next_section }: { next_section: string }) {

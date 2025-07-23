@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 
 function MenuLinks({
     menuOpen = true,
-    onclick = (e: React.MouseEvent<HTMLAnchorElement>) => { }
+    onclick = (_: React.MouseEvent<HTMLAnchorElement>) => { }
 }) {
 
     var cls = 'hover:font-extrabold hover:text-secondary transition-colors duration-300 font-semibold'

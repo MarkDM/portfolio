@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import emailjs, { send } from 'emailjs-com'
+import emailjs from 'emailjs-com'
 
 
-function Contact({ next_section }: { next_section?: string }) {
+function Contact() {
 
     const [sendingMessage, setSendingMessage] = useState(false);
     const [formData, setFormData] = useState({

@@ -1,5 +1,5 @@
 import "./App.css"
-import React, { useState } from 'react'
+import { useState } from 'react'
 import LoadingScreen from "./components/LoadingScreen"
 import Navbar from "./components/Navbar";
 import MobileMenu from "./components/MobileMenu";
