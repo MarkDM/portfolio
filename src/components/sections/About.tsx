@@ -15,11 +15,9 @@ function About({ next_section }: { next_section: string }) {
     ]
 
     const backendSkills = [
-        "Java / Spring Boot",
-        'Node.js / Express',
-        'Python',
-        'RESTful APIs',
-        "Sql / NoSQL Databases",
+        "Java | Spring Boot",
+        'Python | Flask | ML | AI | Automations,',
+        "Sql | Complex queries | Optimizations",
     ];
 
     const languages = [
@@ -109,18 +107,19 @@ function Experience() {
                         <li className='text-start'>Develop and maintain web applications using React/Next.js, Spring Boot and SQL Server.</li>
                         <li className='text-start'>Develop and maintain android/cross-platform applications using Flutter / Android with kotlin</li>
                         <li className='text-start'>Train ML/AI models for data analysis and features with python</li>
+                        <li className='text-start'>Implement security standarts and help members of the team to monitor for new threats</li>
                     </ul>
                 </div>
                 <div className="ml-6">
                     <span className="text-gray-400">Key collaborations</span>
                     <ul className="list-disc list-outside text-gray-300 space-y-2 mt-4 ml-4">
                         <li className='text-start'>Standardized the architecture of all mobile and web apps, increasing productivity and reducing development time.</li>
-                        <li className='text-start'>Implemented a robust and automated testing culture, which reduced the delivery time of new features by 120%.</li>
-                        <li className='text-start'>Modernized legacy projects to new technologies, increasing efficiency, speed, and reducing errors.</li>
+                        <li className='text-start'>Implemented a robust and automated testing culture, which reduced the delivery time of new features.</li>
+                        <li className='text-start'>Modernized legacy and pure javascript web projects to Next.js, increasing efficiency, speed, and reducing errors.</li>
                         <li className='text-start'>Created an extensive library of reusable web and mobile components over time, reducing coupling with third-party libraries.</li>
-                        <li className='text-start'>Automated massive data analysis with Python, reducing the time spent by 535%.</li>
+                        <li className='text-start'>Automated massive data analysis with Python, eliminating the slow and manual process.</li>
                         <li className='text-start'>Trained AI models for automatic detection of fraud in electricity and gas accounts.</li>
-                        <li className='text-start'>Optimized several critical systems, significantly improving performance and increasing customer retention.</li>
+                        <li className='text-start'>Optimized and modernize legacy Java systems, significantly improving performance and reducing clients complains.</li>
                         <li className='text-start'>Helped implement and test robust security standards across all company systems, preventing potential damage to data and infrastructure.</li>
                     </ul>
 
