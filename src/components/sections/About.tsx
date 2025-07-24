@@ -11,6 +11,7 @@ function About({ next_section }: { next_section: string }) {
 
     const mobileSkills = [
         'Flutter',
+        'React Native',
         'Android / Kotlin',
     ]
 
